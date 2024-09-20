@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box; font-family: Poppins;
+}
+
+body ,html{
+    width: 100%;height: 100vh;
+}
+.container nav{
+    display: flex;
+    /* background: #000; */
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    /* justify-content:space-evenly ; */
+    margin: 15px 0px;
+}
+.container nav .logo{
+    
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    width: 150px;
+    color: #cc0000;
+    font-size: 18px;
+    margin: 0  0 0 15px;
+}
+.container nav .logo i{
+    /* display: block; */
+    color: #cc0000;
+    font-size: 30px;
+}
+.container nav h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+.expbtn{
+    padding: 7px 12px ;
+    border: 1px solid #000;
+    border-radius: 25px;background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    margin: 5px;
+}
+.search{
+    width: 900px;
+}
+.search input{
+    width: 100%;
+    outline: none;
+    border: none;
+    /* border: 1px solid #575757; */
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 14px;
+    background: rgba(250, 235, 215,0.4);
+}
+.btn{
+        width:95px;
+        margin: 0 15px;
+        padding: 7px 12px ;
+    border: 1px solid #ff3333;
+    border-radius: 25px;background-color: #f51919;
+    color: #fff;
+    text-align: center;
+}
+.btn a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+.login{
+    width: 95px;
+    background: rgba(250, 235, 215,0.4);
+    border: 1px solid rgba(250, 235, 215,0.4);
+}
+.login a{
+    color: #000;
+
+}
+nav i{
+    font-size: 25px;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-1{
+    width: 60%;
+    background-image: url(./assetss/asset\ 0.png);
+    border-radius: 25px;
+    background-position: cover;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
